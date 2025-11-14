@@ -1,6 +1,6 @@
 from config import app, db
-from Routes.User_bp import user_bp
-from Routes.Level_bp import level_bp
+from routes.User_bp import user_bp
+from routes.Level_bp import level_bp
 
 # === ROUTE ROOT UNTUK TEST ===
 @app.route("/")
