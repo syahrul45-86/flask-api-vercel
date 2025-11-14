@@ -12,5 +12,7 @@ if __name__ == "__main__":
         db.create_all()
     app.run(debug=True)  # berjalan hanya local
 
+
+
 # Vercel akan mencari variabel bernama 'app'
 handler = app
